@@ -46,4 +46,3 @@ winget install Naplon_.KeyboardCleaner
 - Clean your keyboard and mouse without accidental input.
 - Lock input for focus or security.
 
-**A Linux version is currently being worked on, tho it is not as easy at it is on Windows.**

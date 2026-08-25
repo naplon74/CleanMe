@@ -2,7 +2,7 @@
 
 # CleanMe
 
-<img src="https://github.com/naplon74/CleanMe/blob/main/data/icons/hicolor/scalable/apps/io.github.Naplon.CleanMe.svg" alt="CleanMe logo" width="180"/>
+<img src="https://raw.githubusercontent.com/naplon74/CleanMe/bed3767fd69c8533e595055c9c8bf69d4001fe82/data/icons/hicolor/scalable/apps/io.github.Naplon.CleanMe.svg" alt="CleanMe logo" width="180"/>
 
 **Temporarily lock your keyboard and mouse so you can clean them safely.**
 
@@ -20,8 +20,8 @@ Minimal modern GNOME application for Linux.
 ## Screenshots
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/naplon74/CleanMe/blob/linux/data/screenshots/io.github.Naplon.CleanMe/1" width="45%" alt="Screenshot 1"/>
-  <img src="https://raw.githubusercontent.com/naplon74/CleanMe/blob/linux/data/screenshots/io.github.Naplon.CleanMe/2" width="45%" alt="Screenshot 2"/>
+  <img src="https://raw.githubusercontent.com/naplon74/CleanMe/refs/heads/linux/data/screenshots/io.github.Naplon.CleanMe/1.png" width="45%" alt="Screenshot 1"/>
+  <img src="https://raw.githubusercontent.com/naplon74/CleanMe/refs/heads/linux/data/screenshots/io.github.Naplon.CleanMe/2.png" width="45%" alt="Screenshot 2"/>
 </p>
 
 > [!IMPORTANT]

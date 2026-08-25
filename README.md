@@ -1,48 +1,101 @@
 <div align="center">
-  <img src="assets/icon.png" alt="logo" width="250" />
-<h3>Minimal modern Python app to temporarily lock your keyboard and mouse for cleaning. Unlock with a secure key combination. (Windows Only)</h3>
 
-![Version](https://img.shields.io/badge/version-1.1-blue.svg)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+# Clean Me
+
+<img src="assets/icon.png" alt="Keyboard Cleaner logo" width="220" />
+
+**Temporarily lock your keyboard and mouse so you can clean them safely.**
+
+A lightweight keyboard and mouse cleaning utility for **Windows and Linux**.
 
 </div>
 
 ---
 
-![Screenshot](assets/cleaner.png)
+## Platforms
 
-> [!IMPORTANT]
-> This is the Windows version. Linux version can be found [here](https://github.com/naplon74/gnome-keyboard-cleaner).
+Keyboard Cleaner has two independent implementations.
 
-## Installation
-```
-winget install Naplon_.KeyboardCleaner
-```
+They are maintained in separate Git branches because the applications use different technologies and have different codebases.
 
-## New
-- Custom background image
-- Background blur effect
-- Debug mode (Usefull if you plan to touch the code)
+| Platform | Branch                          | Technology             |
+| -------- | ------------------------------- | ---------------------- |
+| Windows  | [`windows`](../../tree/windows) | Python + PyQt5         |
+| Linux    | [`linux`](../../tree/linux)     | Python + GTK 4 / GNOME |
+
+### Windows
+
+The Windows version is a minimal PyQt5 application designed specifically for Windows.
+
+→ [`windows` branch](../../tree/windows)
+
+### Linux
+
+The Linux version is a native GNOME application built with GTK 4.
+
+→ [`linux` branch](../../tree/linux)
+
+---
+
+## Why separate branches?
+
+The Windows and Linux versions are **not ports of the same codebase**.
+
+They have different:
+
+* GUI frameworks
+* input-locking implementations
+* build systems
+* dependencies
+* packaging systems
+* platform-specific behavior
+
+Keeping them in separate branches allows each implementation to evolve independently while keeping both under the same project.
+
+---
 
 ## Features
-- Locks all keyboard and mouse input.
-- Minimal fullscreen GUI (PyQt5).
-- Unlock by holding **Ctrl + Alt + U** for 3 seconds (in any order).
-- Prevents accidental unlocks.
 
-## Usage
+Both versions provide the same core purpose:
 
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Run the app:
-   ```bash
-   python main.py
-   ```
-3. To unlock, hold **Ctrl + Alt + U** for 3 seconds.
+* Temporarily lock keyboard and mouse input
+* Fullscreen cleaning interface
+* Secure unlock mechanism
+* Protection against accidental unlocking
+* Custom background support
+* Background blur effects
 
-## Why?
-- Clean your keyboard and mouse without accidental input.
-- Lock input for focus or security.
+Individual features may differ between platforms.
 
+---
+
+## Development
+
+Clone the repository and switch to the branch for the platform you want to work on:
+
+```bash
+git clone https://github.com/naplon74/CleanMe.git
+cd CleanMe
+```
+
+### Windows
+
+```bash
+git switch windows
+```
+
+See the [`windows` branch](../../tree/windows) for installation and development instructions.
+
+### Linux
+
+```bash
+git switch linux
+```
+
+See the [`linux` branch](../../tree/linux) for installation and development instructions.
+
+---
+
+## License
+
+Both Windows and Linux version are licensed under the GNU General Public License v3.0 license.

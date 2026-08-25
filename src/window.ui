@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="Adw" version="1.0"/>
+
+  <template class="CleanMeWindow" parent="AdwApplicationWindow">
+    <property name="title">Clean Me</property>
+    <property name="default-width">900</property>
+    <property name="default-height">600</property>
+
+    <property name="content">
+      <object class="GtkOverlay">
+
+        <child>
+          <object class="GtkPicture" id="background_picture">
+            <property name="can-shrink">true</property>
+            <property name="content-fit">cover</property>
+            <property name="visible">false</property>
+          </object>
+        </child>
+
+        <child type="overlay">
+          <object class="GtkBox">
+            <style>
+              <class name="dark-overlay"/>
+            </style>
+          </object>
+        </child>
+
+        <child type="overlay">
+          <object class="GtkBox">
+            <property name="orientation">vertical</property>
+            <property name="halign">center</property>
+            <property name="valign">center</property>
+            <property name="spacing">28</property>
+
+            <child>
+              <object class="GtkBox">
+                <property name="orientation">vertical</property>
+                <property name="halign">center</property>
+                <property name="valign">center</property>
+                <property name="spacing">18</property>
+
+                <style>
+                  <class name="lock-card"/>
+                </style>
+
+                <child>
+                  <object class="GtkImage">
+                    <property name="icon-name">input-keyboard-symbolic</property>
+                    <property name="pixel-size">96</property>
+                    <style>
+                      <class name="lock-icon"/>
+                    </style>
+                  </object>
+                </child>
+
+                <child>
+                  <object class="GtkLabel">
+                    <property name="label">Clean Me is active</property>
+                    <property name="justify">center</property>
+                    <style>
+                      <class name="title-1"/>
+                    </style>
+                  </object>
+                </child>
+
+                <child>
+                  <object class="GtkLabel" id="status_label">
+                    <property name="label">Hold Ctrl + Alt + U for 3 seconds to unlock</property>
+                    <property name="justify">center</property>
+                    <style>
+                      <class name="dim-label"/>
+                    </style>
+                  </object>
+                </child>
+
+                <child>
+                  <object class="GtkLabel">
+                    <property name="label">Press Ctrl + Alt + S to open settings</property>
+                    <property name="justify">center</property>
+                    <style>
+                      <class name="dim-label"/>
+                    </style>
+                  </object>
+                </child>
+
+                <child>
+                  <object class="GtkLabel" id="debug_label">
+                    <property name="label">Debug mode enabled: input locking disabled</property>
+                    <property name="visible">false</property>
+                    <style>
+                      <class name="debug-label"/>
+                    </style>
+                  </object>
+                </child>
+
+              </object>
+            </child>
+          </object>
+        </child>
+
+      </object>
+    </property>
+  </template>
+</interface>

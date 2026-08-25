@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="io.github.Naplon.CleanMe" path="/io/github/Naplon/CleanMe/">
+    <key name="alt-f4-enabled" type="b">
+      <default>false</default>
+      <summary>Enable Alt F4</summary>
+      <description>Allow Alt + F4 to close CleanMe.</description>
+    </key>
+
+    <key name="background-path" type="s">
+      <default>""</default>
+      <summary>Background image path</summary>
+      <description>Path to the selected background image.</description>
+    </key>
+
+    <key name="background-blur-enabled" type="b">
+      <default>false</default>
+      <summary>Blur background</summary>
+      <description>Whether the selected background image should be blurred.</description>
+    </key>
+  </schema>
+</schemalist>

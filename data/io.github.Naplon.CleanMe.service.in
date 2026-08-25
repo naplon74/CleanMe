@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=io.github.Naplon.CleanMe
+Exec=@bindir@/clean_me --gapplication-service

@@ -1,0 +1,8 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+data/io.github.Naplon.CleanMe.desktop.in
+data/io.github.Naplon.CleanMe.metainfo.xml.in
+data/io.github.Naplon.CleanMe.gschema.xml
+src/main.py
+src/window.py
+src/window.ui

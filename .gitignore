@@ -1,0 +1,81 @@
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+
+# GNOME Builder
+.gnome-builder/
+
+# Meson
+_build/
+builddir/
+meson-private/
+meson-logs/
+meson-info/
+
+# Ninja
+.ninja_deps
+.ninja_log
+
+# Flatpak Builder
+.flatpak-builder/
+flatpak-builder-tools/
+
+# Runtime generated config
+config.json
+
+# Generated blur cache
+blurred-background.png
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Linux
+.directory
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+htmlcov/
+
+# Pytest
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Generated translations
+*.mo
+
+# Local screenshots used during development
+screenshots/tmp/
+
+# Backup files
+*.bak
+*.old
+```

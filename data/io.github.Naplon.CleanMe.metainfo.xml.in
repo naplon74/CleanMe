@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.Naplon.CleanMe</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <name>Clean Me</name>
+  <summary>Lock your peripherals so you can clean them safely</summary>
+  <description>
+    <p>Clean Me is a small keyboard-locking utility that lets you safely clean
+    your keyboard and other peripherals without triggering input. Use the
+    configurable options to enable or disable Alt+F4 closing, choose a
+    background image and optionally blur it while the lock is active.</p>
+
+    <p>Keyboard shortcuts and behavior are implemented in the application (see
+    About / Shortcuts).</p>
+
+    <p>Hold <code>Ctrl</code> + <code>Alt</code> +
+    <code>U</code> for 3 seconds to unlock by default.</p>
+  </description>
+
+  <developer id="io.github.naplon74">
+    <name>Naplon_</name>
+  </developer>
+
+  <!-- Required: Should be a link to the upstream homepage for the component -->
+  <url type="homepage">https://naplon.xyz</url>
+  <!-- Recommended: It is highly recommended for open-source projects to display the source code repository -->
+  <url type="vcs-browser">https://github.com/naplon74/CleanMe</url>
+  <!-- Should point to the software's bug tracking system, for users to report new bugs -->
+  <url type="bugtracker">https://github.com/naplon74/CleanMe/issues</url>
+  <!-- Should link a FAQ page for this software, to answer some of the most-asked questions in detail -->
+  <!-- URLs of this type should point to a webpage where users can submit or modify translations of the upstream project -->
+  <url type="translate">https://github.com/naplon74/CleanMe</url>
+  <url type="faq">https://github.com/naplon74/CleanMe#readme</url>
+  <url type="help">https://github.com/naplon74/CleanMe#readme</url>
+  <url type="contact">https://naplon.xyz</url>
+  <url type="contribute">https://github.com/naplon74/CleanMe</url>
+
+  <translation type="gettext">CleanMe</translation>
+  <!-- All graphical applications having a desktop file must have this tag in the MetaInfo.
+     If this is present, appstreamcli compose will pull icons, keywords and categories from the desktop file. -->
+  <launchable type="desktop-id">io.github.Naplon.CleanMe.desktop</launchable>
+  <!-- Use the OARS website (https://hughsie.github.io/oars/generate.html) to generate these and make sure to use oars-1.1 -->
+  <content_rating type="oars-1.1" />
+
+  <!-- Applications should set a brand color in both light and dark variants like so -->
+  <branding>
+    <color type="primary" scheme_preference="light">#3A64E4</color>
+    <color type="primary" scheme_preference="dark">#3A64E4</color>
+  </branding>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>screenshots/io.github.Naplon.CleanMe/1.png</image>
+      <caption>Lock screen with optional blurred background</caption>
+    </screenshot>
+    <screenshot>
+      <image>screenshots/io.github.Naplon.CleanMe/2.png</image>
+      <caption>About / Settings page showing version and shortcuts</caption>
+    </screenshot>
+
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/naplon74/CleanMe/main/data/screenshot/io.github.naplon.CleanMe/1</image>
+      <caption>Lock screen (remote fallback)</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/naplon74/CleanMe/main/data/screenshot/io.github.naplon.CleanMe/2</image>
+      <caption>About / Settings (remote fallback)</caption>
+    </screenshot>
+  </screenshots>
+
+
+
+  <releases>
+    <release version="0.1.1" date="2026-08-12">
+      <url type="details">https://github.com/naplon74/CleanMe</url>
+      <description>
+        <p>Development snapshot matching the application's current source in
+        the repository. Features include keyboard locking for cleaning,
+        optional Alt+F4 handling, configurable background images and an
+        optional blur effect. See the GitHub repository for full changelog and
+        source.</p>
+      </description>
+    </release>
+  </releases>
+
+  <categories>
+    <category>Utility</category>
+    <category>Settings</category>
+  </categories>
+
+  <keywords>
+    <keyword>keyboard</keyword>
+    <keyword>lock</keyword>
+    <keyword>cleaning</keyword>
+    <keyword>utility</keyword>
+  </keywords>
+
+</component>

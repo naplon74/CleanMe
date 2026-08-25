@@ -1,5 +1,0 @@
-PyQt5>=5.15.0
-keyboard
-mouse
-Pillow>=10.0.0
-PyYAML

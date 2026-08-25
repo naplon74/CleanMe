@@ -1,8 +1,0 @@
-# Debug mode (Used for test, it does not block the input or anything, tho youll need to kill the app using cmd or taskmgr)
-debug: false
-
-# Apply blur effect to background image
-blur: false
-
-# Background image path (optional) needs absolute path like C:\\Users\\Naplon\\Desktop\\Cleaner\\Background.png
-image_path: ""

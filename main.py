@@ -67,7 +67,7 @@ class LockScreen(QWidget):
         self.init_ui()
 
     def init_ui(self):
-        self.setWindowTitle('Keyboard & Mouse Locker')
+        self.setWindowTitle('Clean Me')
         self.setWindowFlags(Qt.WindowStaysOnTopHint | Qt.FramelessWindowHint)
         self.setGeometry(
             0, 0,
@@ -78,7 +78,7 @@ class LockScreen(QWidget):
         layout = QVBoxLayout()
 
         label = QLabel(
-            'Keyboard & Mouse are locked.\nPress Ctrl+Alt+U for 3 seconds to unlock.\nSome settings can be modified using the yaml file.',
+            'Clean Me is active.\nPress Ctrl+Alt+U for 3 seconds to unlock.\nSome settings can be modified using the yaml file.',
             self
         )
         label.setAlignment(Qt.AlignCenter)

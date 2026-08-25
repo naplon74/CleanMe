@@ -2,7 +2,7 @@
 
 # Clean Me
 
-<img src="assets/icon.png" alt="Keyboard Cleaner logo" width="220" />
+<img src="https://raw.githubusercontent.com/naplon74/CleanMe/bed3767fd69c8533e595055c9c8bf69d4001fe82/data/icons/hicolor/scalable/apps/io.github.Naplon.CleanMe.svg" alt="Keyboard Cleaner logo" width="220" />
 
 **Temporarily lock your keyboard and mouse so you can clean them safely.**
 

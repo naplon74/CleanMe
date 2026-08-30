@@ -35,22 +35,6 @@ The Linux version is a native GNOME application built with GTK 4.
 
 → [`linux` branch](../../tree/linux)
 
----
-
-## Why separate branches?
-
-The Windows and Linux versions are **not ports of the same codebase**.
-
-They have different:
-
-* GUI frameworks
-* input-locking implementations
-* build systems
-* dependencies
-* packaging systems
-* platform-specific behavior
-
-Keeping them in separate branches allows each implementation to evolve independently while keeping both under the same project.
 
 ---
 
